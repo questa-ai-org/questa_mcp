@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "questa": {
+      "url": "https://api.questa-ai.com/mcp"
+    }
+  }
+}

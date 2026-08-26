@@ -1,0 +1,18 @@
+{
+  "name": "questa-privacy-mcp",
+  "version": "1.0.0",
+  "description": "Anonymize and redact PII before it reaches AI models. GDPR, HIPAA, EU AI Act.",
+  "author": {
+    "name": "Questa"
+  },
+  "homepage": "https://www.questa-ai.com",
+  "keywords": [
+    "privacy",
+    "pii",
+    "anonymize",
+    "redact",
+    "gdpr",
+    "hipaa",
+    "mcp"
+  ]
+}

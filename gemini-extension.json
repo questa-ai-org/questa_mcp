@@ -1,0 +1,10 @@
+{
+  "name": "questa-privacy-mcp",
+  "version": "1.0.0",
+  "description": "Anonymize and redact PII before it reaches AI models. GDPR, HIPAA, EU AI Act.",
+  "mcpServers": {
+    "questa": {
+      "httpUrl": "https://api.questa-ai.com/mcp"
+    }
+  }
+}

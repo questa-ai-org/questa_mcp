@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.questa-ai/questa",
+  "title": "Questa Privacy MCP",
+  "description": "Anonymize and redact PII before it reaches AI models. GDPR, HIPAA, EU AI Act.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.questa-ai.com",
+  "repository": {
+    "url": "https://github.com/questa-ai-org/questa_mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.questa-ai.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "OAuth access token or qmc_* connector key as Bearer",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

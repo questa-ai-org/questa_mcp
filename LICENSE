@@ -1,0 +1,10 @@
+Copyright (c) Questa
+
+This repository contains public documentation, install manifests, and listing
+metadata for the hosted Questa Privacy MCP at https://api.questa-ai.com/mcp.
+
+The hosted service, anonymizer, and related software are proprietary and are
+not licensed by this repository.
+
+You may copy the install JSON and listing metadata for the purpose of
+connecting a client to the hosted endpoint.
