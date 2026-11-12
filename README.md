@@ -71,7 +71,15 @@ Settings → Connectors → Add custom connector → paste `https://api.questa-a
 
 ### ChatGPT
 
-Plugins → New Plugin → Server URL `https://api.questa-ai.com/mcp` → Authentication: OAuth → Connect.
+Use ChatGPT on the web. Developer Mode is not needed.
+
+1. Open [chatgpt.com/plugins](https://chatgpt.com/plugins) → plus (**+**) button → **Add custom MCP server**. Do not choose **Create plugin**.
+2. Name `Questa`. Connection: **Server URL** → `https://api.questa-ai.com/mcp`.
+3. Authentication: **OAuth** → tick **I understand and want to continue** → **Create as a plugin**.
+4. Sign in to Questa when ChatGPT asks, and approve access.
+5. Install the plugin, start a new chat, type `@` and select Questa.
+
+OpenAI limits custom MCP servers by plan: Business, Enterprise and Edu workspaces can run every tool; Pro is documented as read-only tools.
 
 ## Auth
 
